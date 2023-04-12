@@ -1,0 +1,299 @@
+.container-fluid li{
+  font-size: 12px;
+}
+nav{
+    background:rgba(0,0,0,0.8) ;
+}
+i{
+    color:#f5f5f7;
+}
+.nav-item a{
+    color:#f5f5f7; 
+}
+.page-content{
+    padding-top: 100px;
+}
+.page-content img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px; 
+}
+h4{
+   text-align: center;
+   padding-bottom: 12px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+
+p{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+h5{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ms-button img{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+
+} 
+.img3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+.img3 img{
+    width: auto;
+}
+
+.sys-req a{
+    font-family: sans-serif;
+    margin: 50px auto;
+    color: #06c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    max-width: 300px;
+    position: relative;
+    text-decoration: none;
+  }
+  /* .sys-req a:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: #121212;
+    
+    right: 340px;
+    top: 50%;
+    position: absolute;
+    
+  }
+  .sys-req a:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: #121212;
+    left:280px;
+    top: 50%;
+    position: absolute;
+    text-decoration: none;
+  } */
+.sys-req i{
+    color: #06c;
+}
+
+.os-sel p{
+margin-right: 10px;
+
+}
+.os-sel{
+    display: flex;
+    justify-content: center;
+    /* margin: 0px 0 0 300px; */
+    /* justify-content: center;
+    align-items: center; */
+   
+    
+  
+
+
+}
+.os-sel a{
+    text-decoration: none;
+    margin-right: 10px; 
+    
+
+}
+.page2{
+    background: #fbfbfd;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    
+   
+}
+
+.left-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.right-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.left-sec a{
+text-decoration: none;
+}
+
+.right-sec a{
+    text-decoration: none;
+
+}
+footer {
+    background: #f5f5f7;
+    max-width: 100%;
+}
+
+hr{
+    width: 65%;
+}
+.ol-list{
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+ .footer-icon1 i{
+    color: #424245;
+}
+.footer-icon1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #424245;
+    
+}
+.footer-icon1{
+    display: flex;
+   justify-content: center;
+
+}
+.footer-icon1 p{
+    font-size: 12px;
+    color: #424245;
+    
+
+}
+.footer-list li{
+list-style: none;
+} 
+.footer-list{
+  display: flex;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+/* .up-content{
+    display: flex;
+    text-align: center;
+}
+.down-content{
+    display: flex;
+    text-align: center;
+} */
+.footer-list a{
+text-decoration: none;
+font-size: 12px;
+color: #505051;
+}
+.head-bold li{
+  font-size: 12px;
+  color: #29292a;
+  font-weight: 500;
+}
+.footer-call p,a{
+  font-size: 12px;
+}
+.footer-last-btn{
+  display: flex;
+
+}
+.copy-right{
+  margin-right: 20px;
+
+}
+.footer-last-btn a{
+  font-size: 12px;
+  text-decoration: none;
+  color: #29292a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 989px) {
+    .img3>img{
+        width: 200px;
+
+    }    
+    
+}
+@media (max-width: 643px){
+    .list>hr{
+        width: 200px;
+
+    }
+}
+@media (max-width: 900px){
+    .os-sel>a,p{
+        font-size: 12px;
+    }
+
+
+}
+@media (max-width : 922px){
+    .page2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+}
+@media (max-width : 880px){
+    .os-sel{
+        flex-direction: column;
+    }
+    .os-sel a{
+        font-size: 12px;
+    }
+    .os-sel p{
+       text-align: center;
+       width: 100%;
+    }
+   
+       
+     
+     .os-platform{
+        display: flex;
+        justify-content: center;
+
+     }
+}
+@media (max-width : 720px){
+    .footer-list{
+        flex-direction: column;
+        
+    }
+    
+
+}
